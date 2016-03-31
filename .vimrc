@@ -1,0 +1,24 @@
+set ai
+set background=dark
+set cursorline
+set enc=utf8
+set hls
+set mouse=nv
+set ic
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set wrap
+set number
+set noeb
+set autochdir
+set scrolloff=3
+set foldenable
+set foldmethod=indent
+set foldcolumn=1
+set foldlevel=5
+set cursorline
+set cursorcolumn
+
+syntax enable
+colorscheme monokai
