@@ -1,5 +1,5 @@
 "自動縮排
-set ai
+set smartindent
 "背景黑色
 set background=dark
 "游標提示
@@ -8,7 +8,8 @@ set cursorline
 set enc=utf8
 "標記關鍵字
 set hls
-set mouse=nv
+"滑鼠滑動
+set mouse=a
 set ic
 set expandtab
 "tab換行
@@ -18,8 +19,10 @@ set shiftwidth=4
 set wrap
 "顯示行號
 set number
+hi LineNr cterm=bold ctermfg=White ctermbg=DarkGray
 "關閉聲音
 set noeb
+"設定尺標"
 set ruler
 set autochdir
 "向下捲動保留三行
@@ -33,6 +36,18 @@ set foldlevel=5
 set cursorline
 "高亮當前（垂直）
 set cursorcolumn
+"自動補全設定
+inoremap { {}<LEFT>
+inoremap [ []<LEFT>
+inoremap ( ()<LEFT>
+inoremap ' ''<LEFT>
+inoremap " ""<LEFT>
+inoremap < <><LEFT>
+inoremap << <<
+inoremap {<CR> {<CR>}<ESC>O<TAB>
 
-syntax enable
-colorscheme monokai
+filetype indent on
+
+syntax on
+colorscheme <you use>
+
