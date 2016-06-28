@@ -1,5 +1,5 @@
 "自動縮排
-set smartindent
+"set smartindent
 "背景黑色
 set background=dark
 "游標提示
@@ -33,10 +33,13 @@ set foldmethod=indent
 set foldcolumn=1
 set foldlevel=5
 "高亮當前（水平）
-set cursorline
+"set cursorline
 "高亮當前（垂直）
 set cursorcolumn
 "自動補全設定
+set nocompatible
+set backspace=indent,eol,start
+
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
@@ -49,5 +52,5 @@ inoremap {<CR> {<CR>}<ESC>O<TAB>
 filetype indent on
 
 syntax on
-colorscheme <you use>
+"colorscheme <you use>
 
