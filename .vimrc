@@ -11,10 +11,10 @@ set hls
 "滑鼠滑動
 set mouse=a
 set ic
-set expandtab
 "tab換行
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
 "自動摺疊
 set wrap
 "顯示行號
@@ -38,7 +38,10 @@ set foldlevel=5
 set cursorcolumn
 "自動補全設定
 set nocompatible
-set backspace=indent,eol,start
+"set backspace=indent,eol,start
+"縮排顯示|---
+set list
+set listchars=tab:\|\ 
 
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
@@ -53,4 +56,5 @@ filetype indent on
 
 syntax on
 "colorscheme <you use>
+
 
