@@ -46,6 +46,7 @@ set listchars=tab:\┊\
 
 "高亮設定
 syntax on
+hi clear
 hi LineNr ctermfg=245
 hi Comment ctermfg=008
 hi Include ctermfg=040
@@ -64,6 +65,7 @@ hi Folded ctermfg=069
 hi MatchParen ctermfg=124 ctermbg=015
 hi ErrorMsg ctermfg=231 ctermbg=197
 hi WarrningMsg ctermfg=231 ctermbg=197
+hi SpecialKey ctermfg=008
 
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
