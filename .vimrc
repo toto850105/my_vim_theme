@@ -72,8 +72,6 @@ inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
 inoremap ' ''<LEFT>
 inoremap " ""<LEFT>
-inoremap < <><LEFT>
-inoremap << <<
 inoremap {<CR> {<CR>}<ESC>O
 
 filetype indent on
