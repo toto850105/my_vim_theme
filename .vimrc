@@ -42,11 +42,15 @@ set nocursorcolumn
 "自動補全設定
 set nocompatible
 set backspace=indent,eol,start
+if has('mouse')
+    set mouse=v
+endif
 
 "auto-indent
 let g:indentLine_char='┆'
 let g:indentLine_enabled = 1
 "tagar 
+vnoremap <C-c> "*y
 nmap <F8> :TagbarToggle<CR>
 
 filetype indent on
