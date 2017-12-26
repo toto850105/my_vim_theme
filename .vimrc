@@ -87,7 +87,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'w0rp/ale'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+"Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'airblade/vim-gitgutter'
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-surround'
@@ -98,5 +98,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'scrooloose/nerdcommenter'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'terryma/vim-smooth-scroll'
 call plug#end()
 
